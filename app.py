@@ -68,5 +68,5 @@ for lat,long,aqi_rating,city,aqi_value in zip(latitude_aqi,longitude_aqi,rating_
 map.add_child(aqiObject)
 map.add_child(templeObject)
 map.add_child(folium.LayerControl())
-map.save("world.html")
+map.save("index.html")
     
